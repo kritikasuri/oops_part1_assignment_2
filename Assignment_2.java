@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class prime {
 		
-	public void prime(int nbr){
+	public void prime_chk(int nbr){
 		
 		int flag=0;
 		
@@ -18,7 +18,7 @@ public class prime {
 		  if (flag == 0)
 		     System.out.println("The number "+nbr+" is a prime number."); 
 		  else
-			  System.out.println("The number "+nbr+" is not a prime number.");   
+	                     System.out.println("The number "+nbr+" is not a prime number.");   
 	}
 	
 	public static void main(String[] args) {
@@ -27,6 +27,6 @@ public class prime {
 		int nbr = scan.nextInt();
 		
 		prime obj = new prime();
-		obj.prime(nbr);
+		obj.prime_chk(nbr);
 	}
 }
